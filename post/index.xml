@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Leo&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 10 Aug 2023 17:29:53 +0800</lastBuildDate><atom:link href="https://JieLeo.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 10 Aug 2023 15:19:24 +0000</lastBuildDate><atom:link href="https://JieLeo.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Py simple crawler</title>
+      <link>https://JieLeo.github.io/post/pysimple_crawler/pybug_/</link>
+      <pubDate>Thu, 10 Aug 2023 15:19:24 +0000</pubDate>
+      
+      <guid>https://JieLeo.github.io/post/pysimple_crawler/pybug_/</guid>
+      <description>python简易爬虫抓取高校硕士招生信息 _init_初始化函数 get_html获取网页信息 get_info寻找有用信息 write_info写入成csv文件 import httpx from bs4 import BeautifulSoup import pprint import json class Base: def __init__(self, name, url) -&amp;gt; None: self.name = name self.url = url self.html = &amp;#34; &amp;#34; self.info_list = [] def get_html(self): try: f = open(self.name + &amp;#34;.html&amp;#34;, &amp;#34;r&amp;#34;, encoding=&amp;#34;utf-8&amp;#34;) self.html = f.read() f.close() except Exception as e: r = httpx.get(self.url) f = open(self.name + &amp;#34;.html&amp;#34;, &amp;#34;w&amp;#34;, encoding=&amp;#34;utf-8&amp;#34;) f.write(r.text) f.close self.html = r.text def get_info(self): pass def write_info(self): with open(self.</description>
+    </item>
+    
     <item>
       <title>My First Post</title>
       <link>https://JieLeo.github.io/post/my-first-post/</link>

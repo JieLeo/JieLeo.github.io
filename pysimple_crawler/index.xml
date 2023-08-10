@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Pysimple_crawlers on Leo&#39;s blog</title>
+    <link>https://JieLeo.github.io/pysimple_crawler/</link>
+    <description>Recent content in Pysimple_crawlers on Leo&#39;s blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 10 Aug 2023 23:19:24 +0800</lastBuildDate><atom:link href="https://JieLeo.github.io/pysimple_crawler/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Py simple crawler</title>
+      <link>https://JieLeo.github.io/pysimple_crawler/pybug/</link>
+      <pubDate>Thu, 10 Aug 2023 23:19:24 +0800</pubDate>
+      
+      <guid>https://JieLeo.github.io/pysimple_crawler/pybug/</guid>
+      <description>python简易爬虫抓取高校硕士招生信息 _init_初始化函数 get_html获取网页信息 get_info寻找有用信息 write_info写入成csv文件 @import &amp;ldquo;main.py&amp;rdquo;
+==对应函数端口参数修改成相应学校URL==</description>
+    </item>
+    
+  </channel>
+</rss>
