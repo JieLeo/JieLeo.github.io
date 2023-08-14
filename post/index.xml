@@ -6,7 +6,17 @@
     <description>Recent content in Posts on Leo&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 10 Aug 2023 15:19:24 +0000</lastBuildDate><atom:link href="https://JieLeo.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 14 Aug 2023 16:26:35 +0800</lastBuildDate><atom:link href="https://JieLeo.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Amadeus_Makise Kurisu_voice</title>
+      <link>https://JieLeo.github.io/post/amadeus/amadeus_makise-kurisu_voice/</link>
+      <pubDate>Mon, 14 Aug 2023 16:26:35 +0800</pubDate>
+      
+      <guid>https://JieLeo.github.io/post/amadeus/amadeus_makise-kurisu_voice/</guid>
+      <description>amadeus_Makise Kurisu_vioce 由mio制作 &amp;lt;作为备份&amp;gt;
+API接口地址及源代码: https://huggingface.co/mio/amadeus</description>
+    </item>
+    
     <item>
       <title>Py simple crawler</title>
       <link>https://JieLeo.github.io/post/pysimple_crawler/pybug_/</link>
@@ -24,16 +34,6 @@
       <guid>https://JieLeo.github.io/post/my-first-post/</guid>
       <description>这是我的第一篇博客 测试用博客
 ！图片</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://JieLeo.github.io/post/amadeus/amadeus_makise-kurisu_vioce/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://JieLeo.github.io/post/amadeus/amadeus_makise-kurisu_vioce/</guid>
-      <description>amadeus_Makise Kurisu_vioce 由mio制作 &amp;lt;作为备份&amp;gt;
-API接口地址及源代码 https://huggingface.co/mio/amadeus</description>
     </item>
     
   </channel>
