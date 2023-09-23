@@ -6,7 +6,17 @@
     <description>Recent content on Leo&#39;s blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 14 Aug 2023 16:26:35 +0800</lastBuildDate><atom:link href="https://JieLeo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 23 Sep 2023 21:14:35 +0800</lastBuildDate><atom:link href="https://JieLeo.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>html_loginForm</title>
+      <link>https://JieLeo.github.io/post/loginform/hw1_loginhtml/</link>
+      <pubDate>Sat, 23 Sep 2023 21:14:35 +0800</pubDate>
+      
+      <guid>https://JieLeo.github.io/post/loginform/hw1_loginhtml/</guid>
+      <description>HTML注册页面 静态页面 用户注册页面，完成：输入空白报错、用户名冲突报错、二次密码不同报错、校验验证码
+&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;注册页面&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body onload=&amp;#34;changeImg()&amp;#34;&amp;gt; &amp;lt;form id=&amp;#34;loginForm&amp;#34; onsubmit=&amp;#34;return CHECK=check()&amp;#34;&amp;gt; &amp;lt;label for=&amp;#34;username&amp;#34;&amp;gt;用户名:&amp;lt;/label&amp;gt;&amp;lt;br&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; id=&amp;#34;username&amp;#34; name=&amp;#34;username&amp;#34;&amp;gt;&amp;lt;br&amp;gt; &amp;lt;label for=&amp;#34;password&amp;#34;&amp;gt;密码:&amp;lt;/label&amp;gt;&amp;lt;br&amp;gt; &amp;lt;input type=&amp;#34;password&amp;#34; id=&amp;#34;password&amp;#34; name=&amp;#34;password&amp;#34;&amp;gt;&amp;lt;br&amp;gt; &amp;lt;label for=&amp;#34;cpassword&amp;#34;&amp;gt;确认密码:&amp;lt;/label&amp;gt;&amp;lt;br&amp;gt; &amp;lt;input type=&amp;#34;password&amp;#34; id=&amp;#34;cpassword&amp;#34; name=&amp;#34;cpassword&amp;#34;&amp;gt;&amp;lt;br&amp;gt; &amp;lt;label for=&amp;#34;idcode&amp;#34;&amp;gt;输入验证码：&amp;lt;/label&amp;gt;&amp;lt;br&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; id=&amp;#34;idcode&amp;#34; placeholder=&amp;#34;验证码&amp;#34; value=&amp;#34;验证码&amp;#34; onfocus=&amp;#34;this.value=&amp;#39;&amp;#39;&amp;#34; onblur=&amp;#34;if(this.value==&amp;#39;&amp;#39;)this.value=&amp;#39;验证码&amp;#39;&amp;#34; /&amp;gt;&amp;lt;span id=&amp;#34;code&amp;#34; title=&amp;#34;看不清，换一张&amp;#34;&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;input type=&amp;#34;submit&amp;#34; value=&amp;#34;提交&amp;#34;&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;script&amp;gt; document.getElementById(&amp;#39;loginForm&amp;#39;).addEventListener(&amp;#39;submit&amp;#39;, function (event) { var username = document.getElementById(&amp;#39;username&amp;#39;).value; var password = document.getElementById(&amp;#39;password&amp;#39;).value; var cpassword = document.getElementById(&amp;#39;cpassword&amp;#39;).value; if (username === &amp;#39;&amp;#39; || password === &amp;#39;&amp;#39; || cpassword === &amp;#39;&amp;#39;) { alert(&amp;#39;用户名和密码不能为空&amp;#39;); event.</description>
+    </item>
+    
     <item>
       <title>Amadeus_Makise Kurisu_voice</title>
       <link>https://JieLeo.github.io/post/amadeus/amadeus_makise-kurisu_voice/</link>
