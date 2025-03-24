@@ -514,7 +514,7 @@
 
 
                 <div name="summary" class="pinned-item-desc text-gray text-small d-block mt-2 mb-3">
-                  小米训练营日报 5/1 安卓历史 1.0-4.4 完善功能 JIT 5.0-7.0 墓碑机制，画中画 AOT 8.0 硬件加速，安全机制 JIT+AOT 安卓构架剖析 架构体系 System Apps 系统内置应用程序及非系统级应用程序，与用户进行直接交互 java api framework java类和库，用于构建应用程序和处理与设备硬件和系统交互功能 Activity：界面窗口 Service：后台执行长时间运行的操作 BroadcastReceiver：接受系统广播信息和应用内部广播消息，并响应 Content Provider:应用间共享数据 view、SQLite数据库等 native c/c++ Libraries Android Runtime 类库，开发者可引用库加速应用程序开发，降低成本和复杂度 渲染、轻型数据库等第三方类库 ART：提供apk虚拟空间同时执行DEX文件 AOT和JIT编译，优化和垃圾回收等 Hardware Abstraction Layer(HAL) (硬件抽象) 提供与硬件交互的接口，让Android框架和应用程序能够访问设备硬件功能 保护源码 Linux Kernel(硬件驱动) 显示、相机、蓝牙、闪存、进程、usb、键盘、wifi、音频、电源等 power management 电源管理 cpu调度 设备唤醒控制 电池管理 功耗统计 开机启动 自下而上进程启动 启动Log logcat :用于查看系统中的日志信息（程序输出、系统事件，错误信息等 dmesg：查看Linux内核启动过程中的消息和硬件相关信息（设备探测，硬件信息、内核模块加载信息等 git操作 分布式源代码管理工具 Workspace-Index-Local Repository-Remote Repository add(-u)	commit/commit(-a)	push	pull or rebase fetch	checkout HEAD checkout diff HEAD diff ssh密钥对 建立	ssh-keygen -t rsa -b 4096 -C&#34;邮箱&#34; 密钥	cat id_rsa.
+                  <h1 id="小米训练营日报">小米训练营日报</h1>
                 </div>
 
                 <p class="mb-0 f6 text-gray">
@@ -542,8 +542,7 @@
 
 
                 <div name="summary" class="pinned-item-desc text-gray text-small d-block mt-2 mb-3">
-                  HTML注册页面 静态页面 用户注册页面，完成：输入空白报错、用户名冲突报错、二次密码不同报错、校验验证码
-&lt;!DOCTYPE html&gt; &lt;html&gt; &lt;head&gt; &lt;meta charset=&#34;utf-8&#34;&gt; &lt;title&gt;注册页面&lt;/title&gt; &lt;/head&gt; &lt;body onload=&#34;changeImg()&#34;&gt; &lt;form id=&#34;loginForm&#34; onsubmit=&#34;return CHECK=check()&#34;&gt; &lt;label for=&#34;username&#34;&gt;用户名:&lt;/label&gt;&lt;br&gt; &lt;input type=&#34;text&#34; id=&#34;username&#34; name=&#34;username&#34;&gt;&lt;br&gt; &lt;label for=&#34;password&#34;&gt;密码:&lt;/label&gt;&lt;br&gt; &lt;input type=&#34;password&#34; id=&#34;password&#34; name=&#34;password&#34;&gt;&lt;br&gt; &lt;label for=&#34;cpassword&#34;&gt;确认密码:&lt;/label&gt;&lt;br&gt; &lt;input type=&#34;password&#34; id=&#34;cpassword&#34; name=&#34;cpassword&#34;&gt;&lt;br&gt; &lt;label for=&#34;idcode&#34;&gt;输入验证码：&lt;/label&gt;&lt;br&gt; &lt;input type=&#34;text&#34; id=&#34;idcode&#34; placeholder=&#34;验证码&#34; value=&#34;验证码&#34; onfocus=&#34;this.value=&#39;&#39;&#34; onblur=&#34;if(this.value==&#39;&#39;)this.value=&#39;验证码&#39;&#34; /&gt;&lt;span id=&#34;code&#34; title=&#34;看不清，换一张&#34;&gt;&lt;/span&gt; &lt;input type=&#34;submit&#34; value=&#34;提交&#34;&gt; &lt;/form&gt; &lt;script&gt; document.getElementById(&#39;loginForm&#39;).addEventListener(&#39;submit&#39;, function (event) { var username = document.getElementById(&#39;username&#39;).value; var password = document.getElementById(&#39;password&#39;).value; var cpassword = document.getElementById(&#39;cpassword&#39;).value; if (username === &#39;&#39; || password === &#39;&#39; || cpassword === &#39;&#39;) { alert(&#39;用户名和密码不能为空&#39;); event.
+                  <h1 id="html注册页面">HTML注册页面</h1>
                 </div>
 
                 <p class="mb-0 f6 text-gray">
@@ -571,8 +570,7 @@
 
 
                 <div name="summary" class="pinned-item-desc text-gray text-small d-block mt-2 mb-3">
-                  amadeus_Makise Kurisu_vioce 由mio制作 &lt;作为备份&gt;
-API接口地址及源代码: https://huggingface.co/mio/amadeus
+                  <h1 id="amadeus_makise-kurisu_vioce">amadeus_Makise Kurisu_vioce</h1>
                 </div>
 
                 <p class="mb-0 f6 text-gray">
@@ -600,7 +598,7 @@ API接口地址及源代码: https://huggingface.co/mio/amadeus
 
 
                 <div name="summary" class="pinned-item-desc text-gray text-small d-block mt-2 mb-3">
-                  python简易爬虫抓取高校硕士招生信息 _init_初始化函数 get_html获取网页信息 get_info寻找有用信息 write_info写入成csv文件 import httpx from bs4 import BeautifulSoup import pprint import json class Base: def __init__(self, name, url) -&gt; None: self.name = name self.url = url self.html = &#34; &#34; self.info_list = [] def get_html(self): try: f = open(self.name + &#34;.html&#34;, &#34;r&#34;, encoding=&#34;utf-8&#34;) self.html = f.read() f.close() except Exception as e: r = httpx.get(self.url) f = open(self.name + &#34;.html&#34;, &#34;w&#34;, encoding=&#34;utf-8&#34;) f.write(r.text) f.close self.html = r.text def get_info(self): pass def write_info(self): with open(self.
+                  <h1 id="python简易爬虫抓取高校硕士招生信息">python简易爬虫抓取高校硕士招生信息</h1>
                 </div>
 
                 <p class="mb-0 f6 text-gray">

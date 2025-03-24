@@ -13,7 +13,7 @@
       <pubDate>Wed, 01 May 2024 21:17:04 +0800</pubDate>
       
       <guid>https://JieLeo.github.io/post/xiaomi_bootcamp/daily/</guid>
-      <description>小米训练营日报 5/1 安卓历史 1.0-4.4 完善功能 JIT 5.0-7.0 墓碑机制，画中画 AOT 8.0 硬件加速，安全机制 JIT+AOT 安卓构架剖析 架构体系 System Apps 系统内置应用程序及非系统级应用程序，与用户进行直接交互 java api framework java类和库，用于构建应用程序和处理与设备硬件和系统交互功能 Activity：界面窗口 Service：后台执行长时间运行的操作 BroadcastReceiver：接受系统广播信息和应用内部广播消息，并响应 Content Provider:应用间共享数据 view、SQLite数据库等 native c/c++ Libraries Android Runtime 类库，开发者可引用库加速应用程序开发，降低成本和复杂度 渲染、轻型数据库等第三方类库 ART：提供apk虚拟空间同时执行DEX文件 AOT和JIT编译，优化和垃圾回收等 Hardware Abstraction Layer(HAL) (硬件抽象) 提供与硬件交互的接口，让Android框架和应用程序能够访问设备硬件功能 保护源码 Linux Kernel(硬件驱动) 显示、相机、蓝牙、闪存、进程、usb、键盘、wifi、音频、电源等 power management 电源管理 cpu调度 设备唤醒控制 电池管理 功耗统计 开机启动 自下而上进程启动 启动Log logcat :用于查看系统中的日志信息（程序输出、系统事件，错误信息等 dmesg：查看Linux内核启动过程中的消息和硬件相关信息（设备探测，硬件信息、内核模块加载信息等 git操作 分布式源代码管理工具 Workspace-Index-Local Repository-Remote Repository add(-u)	commit/commit(-a)	push	pull or rebase fetch	checkout HEAD checkout diff HEAD diff ssh密钥对 建立	ssh-keygen -t rsa -b 4096 -C&amp;#34;邮箱&amp;#34; 密钥	cat id_rsa.</description>
+      <description>&lt;h1 id=&#34;小米训练营日报&#34;&gt;小米训练营日报&lt;/h1&gt;</description>
     </item>
     
     <item>
@@ -22,8 +22,7 @@
       <pubDate>Sat, 23 Sep 2023 21:14:35 +0800</pubDate>
       
       <guid>https://JieLeo.github.io/post/loginform/hw1_loginhtml/</guid>
-      <description>HTML注册页面 静态页面 用户注册页面，完成：输入空白报错、用户名冲突报错、二次密码不同报错、校验验证码
-&amp;lt;!DOCTYPE html&amp;gt; &amp;lt;html&amp;gt; &amp;lt;head&amp;gt; &amp;lt;meta charset=&amp;#34;utf-8&amp;#34;&amp;gt; &amp;lt;title&amp;gt;注册页面&amp;lt;/title&amp;gt; &amp;lt;/head&amp;gt; &amp;lt;body onload=&amp;#34;changeImg()&amp;#34;&amp;gt; &amp;lt;form id=&amp;#34;loginForm&amp;#34; onsubmit=&amp;#34;return CHECK=check()&amp;#34;&amp;gt; &amp;lt;label for=&amp;#34;username&amp;#34;&amp;gt;用户名:&amp;lt;/label&amp;gt;&amp;lt;br&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; id=&amp;#34;username&amp;#34; name=&amp;#34;username&amp;#34;&amp;gt;&amp;lt;br&amp;gt; &amp;lt;label for=&amp;#34;password&amp;#34;&amp;gt;密码:&amp;lt;/label&amp;gt;&amp;lt;br&amp;gt; &amp;lt;input type=&amp;#34;password&amp;#34; id=&amp;#34;password&amp;#34; name=&amp;#34;password&amp;#34;&amp;gt;&amp;lt;br&amp;gt; &amp;lt;label for=&amp;#34;cpassword&amp;#34;&amp;gt;确认密码:&amp;lt;/label&amp;gt;&amp;lt;br&amp;gt; &amp;lt;input type=&amp;#34;password&amp;#34; id=&amp;#34;cpassword&amp;#34; name=&amp;#34;cpassword&amp;#34;&amp;gt;&amp;lt;br&amp;gt; &amp;lt;label for=&amp;#34;idcode&amp;#34;&amp;gt;输入验证码：&amp;lt;/label&amp;gt;&amp;lt;br&amp;gt; &amp;lt;input type=&amp;#34;text&amp;#34; id=&amp;#34;idcode&amp;#34; placeholder=&amp;#34;验证码&amp;#34; value=&amp;#34;验证码&amp;#34; onfocus=&amp;#34;this.value=&amp;#39;&amp;#39;&amp;#34; onblur=&amp;#34;if(this.value==&amp;#39;&amp;#39;)this.value=&amp;#39;验证码&amp;#39;&amp;#34; /&amp;gt;&amp;lt;span id=&amp;#34;code&amp;#34; title=&amp;#34;看不清，换一张&amp;#34;&amp;gt;&amp;lt;/span&amp;gt; &amp;lt;input type=&amp;#34;submit&amp;#34; value=&amp;#34;提交&amp;#34;&amp;gt; &amp;lt;/form&amp;gt; &amp;lt;script&amp;gt; document.getElementById(&amp;#39;loginForm&amp;#39;).addEventListener(&amp;#39;submit&amp;#39;, function (event) { var username = document.getElementById(&amp;#39;username&amp;#39;).value; var password = document.getElementById(&amp;#39;password&amp;#39;).value; var cpassword = document.getElementById(&amp;#39;cpassword&amp;#39;).value; if (username === &amp;#39;&amp;#39; || password === &amp;#39;&amp;#39; || cpassword === &amp;#39;&amp;#39;) { alert(&amp;#39;用户名和密码不能为空&amp;#39;); event.</description>
+      <description>&lt;h1 id=&#34;html注册页面&#34;&gt;HTML注册页面&lt;/h1&gt;</description>
     </item>
     
     <item>
@@ -32,8 +31,7 @@
       <pubDate>Mon, 14 Aug 2023 16:26:35 +0800</pubDate>
       
       <guid>https://JieLeo.github.io/post/amadeus/amadeus_makise-kurisu_voice/</guid>
-      <description>amadeus_Makise Kurisu_vioce 由mio制作 &amp;lt;作为备份&amp;gt;
-API接口地址及源代码: https://huggingface.co/mio/amadeus</description>
+      <description>&lt;h1 id=&#34;amadeus_makise-kurisu_vioce&#34;&gt;amadeus_Makise Kurisu_vioce&lt;/h1&gt;</description>
     </item>
     
     <item>
@@ -42,7 +40,7 @@ API接口地址及源代码: https://huggingface.co/mio/amadeus</description>
       <pubDate>Thu, 10 Aug 2023 15:19:24 +0000</pubDate>
       
       <guid>https://JieLeo.github.io/post/pysimple_crawler/pybug_/</guid>
-      <description>python简易爬虫抓取高校硕士招生信息 _init_初始化函数 get_html获取网页信息 get_info寻找有用信息 write_info写入成csv文件 import httpx from bs4 import BeautifulSoup import pprint import json class Base: def __init__(self, name, url) -&amp;gt; None: self.name = name self.url = url self.html = &amp;#34; &amp;#34; self.info_list = [] def get_html(self): try: f = open(self.name + &amp;#34;.html&amp;#34;, &amp;#34;r&amp;#34;, encoding=&amp;#34;utf-8&amp;#34;) self.html = f.read() f.close() except Exception as e: r = httpx.get(self.url) f = open(self.name + &amp;#34;.html&amp;#34;, &amp;#34;w&amp;#34;, encoding=&amp;#34;utf-8&amp;#34;) f.write(r.text) f.close self.html = r.text def get_info(self): pass def write_info(self): with open(self.</description>
+      <description>&lt;h1 id=&#34;python简易爬虫抓取高校硕士招生信息&#34;&gt;python简易爬虫抓取高校硕士招生信息&lt;/h1&gt;</description>
     </item>
     
     <item>
